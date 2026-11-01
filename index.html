@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova - La landing page moderne</title>
+    <meta name="description" content="Démo d'une landing page moderne, animée et responsive." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo"><span class="logo-dot"></span> Nova</a>
+            <nav class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#pricing">Tarifs</a>
+                <a href="#testimonials">Témoignages</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">🌙</button>
+                <a href="#cta" class="btn btn-primary">Essayer</a>
+            </div>
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="container hero-inner">
+            <div class="badge reveal">✨ Nouveau • v2.0 disponible</div>
+            <h1 class="reveal">
+                Construis <span class="gradient-text">plus vite</span><br />
+                avec une landing <span class="gradient-text">moderne</span>
+            </h1>
+            <p class="lead reveal">
+                Un template prêt à l'emploi, animé, responsive et 100&nbsp;% personnalisable.
+                Lance ton produit en quelques minutes.
+            </p>
+            
+            <!-- Boutons CTA remis ici -->
+            <div class="hero-cta reveal">
+                <a href="#cta" class="btn btn-primary">Démarrer gratuitement</a>
+                <a href="#features" class="btn btn-ghost">Voir la démo ↓</a>
+            </div>
+
+            <!-- Nouveau Mockup Dashboard -->
+            <div class="hero-preview reveal">
+                <div class="preview-window">
+                    <div class="preview-bar"><span></span><span></span><span></span></div>
+                    
+                    <div class="dashboard">
+                        <!-- Header -->
+                        <div class="dash-header">
+                            <div class="dash-title">
+                                <span class="dash-icon">📊</span>
+                                Tableau de bord
+                            </div>
+                            <div class="dash-live">
+                                <span class="live-dot"></span>
+                                En direct
+                            </div>
+                        </div>
+
+                        <!-- Cartes stats -->
+                        <div class="dash-stats">
+                            <div class="dash-stat">
+                                <span class="dash-num">+248%</span>
+                                <span class="dash-label">Croissance</span>
+                                <span class="dash-trend up">↗</span>
+                            </div>
+                            <div class="dash-stat">
+                                <span class="dash-num">12.4k</span>
+                                <span class="dash-label">Utilisateurs</span>
+                                <span class="dash-trend up">↗</span>
+                            </div>
+                            <div class="dash-stat">
+                                <span class="dash-num">99.9%</span>
+                                <span class="dash-label">Uptime</span>
+                                <span class="dash-trend stable">●</span>
+                            </div>
+                        </div>
+
+                        <!-- Graphique -->
+                        <div class="dash-chart">
+                            <div class="bar" style="--h: 40%; --d: .1s"></div>
+                            <div class="bar" style="--h: 65%; --d: .2s"></div>
+                            <div class="bar" style="--h: 45%; --d: .3s"></div>
+                            <div class="bar" style="--h: 80%; --d: .4s"></div>
+                            <div class="bar" style="--h: 55%; --d: .5s"></div>
+                            <div class="bar" style="--h: 90%; --d: .6s"></div>
+                            <div class="bar" style="--h: 70%; --d: .7s"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features section" id="features">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Fonctionnalités</span>
+                <h2>Tout ce qu'il faut pour convertir</h2>
+                <p>Des composants pensés pour la performance et l'expérience utilisateur.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card reveal"><div class="feature-icon">⚡️</div><h3>Ultra rapide</h3><p>Zéro dépendance, code optimisé. Score Lighthouse au top.</p></div>
+                <div class="feature-card reveal"><div class="feature-icon">🌗</div><h3>Dark mode</h3><p>Thème clair/sombre avec persistance locale.</p></div>
+                <div class="feature-card reveal"><div class="feature-icon">📱</div><h3>100% Responsive</h3><p>Une expérience parfaite sur mobile, tablette et desktop.</p></div>
+                <div class="feature-card reveal"><div class="feature-icon">🎨</div><h3>Personnalisable</h3><p>Variables CSS pour tout changer en 1 minute.</p></div>
+                <div class="feature-card reveal"><div class="feature-icon">♿️</div><h3>Accessible</h3><p>Balises sémantiques, contrastes respectés, navigation clavier.</p></div>
+                <div class="feature-card reveal"><div class="feature-icon">🚀</div><h3>Animations</h3><p>Transitions fluides au scroll via IntersectionObserver.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Tarifs</span>
+                <h2>Des prix simples et honnêtes</h2>
+                <p>Commence gratuitement, évolue quand tu veux.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card reveal">
+                    <h3>Starter</h3>
+                    <div class="price"><span>0€</span>/mois</div>
+                    <ul><li>✔️ 1 projet</li><li>✔️ Composants de base</li><li>✔️ Support Communautaire</li></ul>
+                    <a href="#cta" class="btn btn-ghost">Commencer</a>
+                </div>
+                <div class="price-card featured reveal">
+                    <div class="tag">Le plus populaire</div>
+                    <h3>Pro</h3>
+                    <div class="price"><span>19€</span>/mois</div>
+                    <ul><li>✔️ Projets illimités</li><li>✔️ Tous les composants</li><li>✔️ Support prioritaire</li><li>✔️ Analytics avancées</li></ul>
+                    <a href="#cta" class="btn btn-primary">Choisir Pro</a>
+                </div>
+                <div class="price-card reveal">
+                    <h3>Team</h3>
+                    <div class="price"><span>49€</span>/mois</div>
+                    <ul><li>✔️ Tout du plan Pro</li><li>✔️ Multi-utilisateurs</li><li>✔️ SLA & support dédié</li></ul>
+                    <a href="#cta" class="btn btn-ghost">Contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Témoignages</span>
+                <h2>Ils l'adorent déjà</h2>
+            </div>
+            <div class="testi-grid">
+                <div class="testi-card reveal">
+                    <p>"Une landing page claire, rapide, magnifique. On a gagné des semaines de dev."</p>
+                    <div class="testi-author"><div class="avatar">A</div><div><strong>Anaïs R.</strong><span>Fondatrice, Loop</span></div></div>
+                </div>
+                <div class="testi-card reveal">
+                    <p>"Le code est propre et bien pensé. Parfait pour prototyper un produit."</p>
+                    <div class="testi-author"><div class="avatar">M</div><div><strong>Mehdi B.</strong><span>Lead Dev, Fizz</span></div></div>
+                </div>
+                <div class="testi-card reveal">
+                    <p>"Design moderne, animations subtiles, zéro JS inutile. Je recommande."</p>
+                    <div class="testi-author"><div class="avatar">L</div><div><strong>Léa D.</strong><span>Designer</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section" id="cta">
+        <div class="container cta-inner reveal">
+            <h2>Prêt à lancer ton projet&nbsp;?</h2>
+            <p>Rejoins des milliers de créateurs qui construisent avec Nova.</p>
+            <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('input').value=''; alert('Merci ! (démo)');">
+                <input type="email" placeholder="ton@email.com" required />
+                <button class="btn btn-primary" type="submit">Rejoindre</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="logo"><span class="logo-dot"></span> Nova</div>
+            <p>© <span id="year"></span> Nova - Démo open-source.</p>
+            <div class="footer-links">
+                <a href="#">GitHub</a><a href="#">X</a><a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
