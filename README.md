@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 [![No dependencies](https://img.shields.io/badge/dependencies-0-blue?style=flat-square)](#stack-technique)
 
-[Démo en ligne](https://ton-utilisateur.github.io/modern-landing-demo/) · [Compétences](#compétences-démontrées) · [Installation](#installation-locale) · [Déploiement](#déploiement)
+[Démo en ligne](https://donovan057.github.io/modern-landing-demo/) · [Compétences](#compétences-démontrées) · [Installation](#installation-locale) · [Déploiement](#déploiement)
 
 </div>
 
